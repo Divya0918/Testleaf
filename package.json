@@ -1,0 +1,14 @@
+{
+  "name": "testleaf-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testleaf homepage replica — mirrors https://www.testleaf.com/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
