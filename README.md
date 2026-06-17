@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Testleaf Website Replica
 
 A local replica of the [Testleaf homepage](https://www.testleaf.com/), built from the live site's HTML structure with assets loaded from Testleaf's CDN (`assets.testleaf.com`).
@@ -48,3 +49,7 @@ To build the full site, mirror additional pages from testleaf.com:
 - `/about-us.html`
 - `/webinar.html`
 - `/course/*.html`
+=======
+# Testleaf
+Testleaf
+>>>>>>> 8a3f9490a928cd363b6f52a6f9f6391679a21f65
