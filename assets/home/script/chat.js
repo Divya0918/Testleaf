@@ -7,6 +7,10 @@
         s.async = true;
         s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
         if (d.head) d.head.appendChild(s);
-
+        s.onload = function() {
+             // Set an interval to open the chat window every 30 seconds 
+             setInterval(function() 
+             { BrevoConversations('openChat', true); }, 30000); // 30000 milliseconds = 30 seconds
+     };
       
     })(document, window, 'BrevoConversations');
